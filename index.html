@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Belépés</title>
+  </head>
+  <body>
+    <div class="fromBody">
+      <h2 class="formTitle">Belépés</h2>
+      <form name="myForm" id="myForm" class="formCard">
+        <div class="formDiv">
+          <label for="email_address">Email cím</label>
+          <input
+            type="email"
+            id="email_address"
+            name="email_address"
+            placeholder="user@email.com"
+            value=""
+            required
+            class="formInput"
+          />
+        </div>
+        <div class="formDiv">
+          <label for="password">Jelszó</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="jelszavad"
+            value=""
+            required
+            class="formInput"
+          />
+        </div>
+        <input type="submit" value="Belépés" class="formButton" />
+      </form>
+      <p class="signLink">
+        Ha még nincs profilod akkor
+        <a href="registration.html">kattints ide</a>
+      </p>
+    </div>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
